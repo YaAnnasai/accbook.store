@@ -1,0 +1,74 @@
+body.login-bg {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://caffemmo.com/assets/storage/images/bg_loginD70.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-section {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card {
+  background: #ffffffcc;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.auth-logo img {
+  display: block;
+  margin: 0 auto 1rem;
+  max-height: 50px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+form label {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forgot-link {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+button#btnLogin {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4EBC68;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 1rem;
+}
